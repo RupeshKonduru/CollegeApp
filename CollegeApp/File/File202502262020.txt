@@ -1,0 +1,13 @@
+2025-02-26 20:20:34.942 +05:30 [INF] Now listening on: https://localhost:7068
+2025-02-26 20:20:34.990 +05:30 [INF] Now listening on: http://localhost:5083
+2025-02-26 20:20:35.354 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 20:20:35.358 +05:30 [INF] Hosting environment: Development
+2025-02-26 20:20:35.362 +05:30 [INF] Content root path: D:\Test\CollegeApp\CollegeApp
+2025-02-26 20:20:35.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-26 20:20:36.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 433.2424ms
+2025-02-26 20:20:36.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-26 20:20:36.267 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-26 20:20:36.307 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 47.5827ms
+2025-02-26 20:20:36.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.5627ms
+2025-02-26 20:20:36.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-26 20:20:36.558 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.1377ms

@@ -1,0 +1,9 @@
+2025-02-27 00:59:16.149 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[Email], [s].[StdName]
+FROM [Student] AS [s]
+2025-02-27 00:59:23.644 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (DbType = DateTime2), @p2='?' (Size = 250), @p3='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Student] ([Address], [DOB], [Email], [StdName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);

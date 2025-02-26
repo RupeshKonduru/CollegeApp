@@ -1,0 +1,28 @@
+2025-02-26 23:49:06.220 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7068/api/Stduent/1003 - null null
+2025-02-26 23:49:06.226 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StduentController.DeleteStudenById (CollegeApp)'
+2025-02-26 23:49:06.230 +05:30 [INF] Route matched with {action = "DeleteStudenById", controller = "Stduent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteStudenById(Int32) on controller CollegeApp.Controllers.StduentController (CollegeApp).
+2025-02-26 23:49:06.241 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Address], [s].[DOB], [s].[Email], [s].[StdName]
+FROM [Student] AS [s]
+WHERE [s].[Id] = @__id_0
+2025-02-26 23:49:06.286 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Student]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-02-26 23:49:06.289 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2025-02-26 23:49:06.290 +05:30 [INF] Executed action CollegeApp.Controllers.StduentController.DeleteStudenById (CollegeApp) in 59.5513ms
+2025-02-26 23:49:06.290 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StduentController.DeleteStudenById (CollegeApp)'
+2025-02-26 23:49:06.290 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7068/api/Stduent/1003 - 200 4 application/json; charset=utf-8 73.203ms
+2025-02-26 23:49:13.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-26 23:49:13.031 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StduentController.GetStudens (CollegeApp)'
+2025-02-26 23:49:13.031 +05:30 [INF] Route matched with {action = "GetStudens", controller = "Stduent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CollegeApp.Model.StudentDTO]]] GetStudens() on controller CollegeApp.Controllers.StduentController (CollegeApp).
+2025-02-26 23:49:13.034 +05:30 [INF] Get Students Method Start
+2025-02-26 23:49:13.039 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[DOB], [s].[Email], [s].[StdName]
+FROM [Student] AS [s]
+2025-02-26 23:49:13.040 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CollegeApp.Model.StudentDTO, CollegeApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-26 23:49:13.041 +05:30 [INF] Executed action CollegeApp.Controllers.StduentController.GetStudens (CollegeApp) in 9.9691ms
+2025-02-26 23:49:13.042 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.StduentController.GetStudens (CollegeApp)'
+2025-02-26 23:49:13.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 200 316 application/json; charset=utf-8 11.7594ms
