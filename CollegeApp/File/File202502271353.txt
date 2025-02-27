@@ -1,0 +1,34 @@
+2025-02-27 13:53:00.065 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 13:53:00.079 +05:30 [INF] Hosting environment: Development
+2025-02-27 13:53:00.085 +05:30 [INF] Content root path: D:\Test\CollegeApp\CollegeApp
+2025-02-27 13:53:00.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-27 13:53:00.805 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 274.8494ms
+2025-02-27 13:53:00.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-27 13:53:00.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-27 13:53:00.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.3968ms
+2025-02-27 13:53:00.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.3839ms
+2025-02-27 13:53:01.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-27 13:53:01.198 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.902ms
+2025-02-27 13:53:08.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:53:09.022 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:53:09.028 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:53:09.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 31.9884ms
+2025-02-27 13:53:24.609 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 51
+2025-02-27 13:53:24.613 +05:30 [INF] CORS policy execution successful.
+2025-02-27 13:53:24.618 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 13:53:24.637 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 13:53:24.760 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 13:53:24.780 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 140.2182ms
+2025-02-27 13:53:24.781 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 13:53:24.781 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 266 application/json; charset=utf-8 171.8483ms
+2025-02-27 13:53:31.927 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:53:31.929 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:53:31.929 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:53:31.929 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 2.8004ms
+2025-02-27 13:53:53.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:53:53.996 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:53:53.997 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:53:53.997 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 13.9968ms

@@ -1,0 +1,22 @@
+2025-02-27 22:37:24.428 +05:30 [INF] User profile is available. Using 'C:\Users\ksudh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-27 22:37:25.082 +05:30 [INF] Now listening on: https://localhost:7068
+2025-02-27 22:37:25.084 +05:30 [INF] Now listening on: http://localhost:5083
+2025-02-27 22:37:25.275 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 22:37:25.285 +05:30 [INF] Hosting environment: Development
+2025-02-27 22:37:25.288 +05:30 [INF] Content root path: D:\Test\CollegeApp\CollegeApp
+2025-02-27 22:37:25.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-27 22:37:25.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 282.8807ms
+2025-02-27 22:37:25.912 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-27 22:37:25.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-27 22:37:25.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.5363ms
+2025-02-27 22:37:25.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.1314ms
+2025-02-27 22:37:26.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-27 22:37:26.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.241ms
+2025-02-27 22:37:56.652 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 86
+2025-02-27 22:37:56.658 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:37:56.679 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:37:56.710 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:37:56.818 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-02-27 22:37:56.821 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 108.5912ms
+2025-02-27 22:37:56.822 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:37:56.822 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 null text/plain; charset=utf-8 169.8616ms

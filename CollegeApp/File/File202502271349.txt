@@ -1,0 +1,42 @@
+2025-02-27 13:49:24.400 +05:30 [INF] User profile is available. Using 'C:\Users\ksudh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-27 13:49:24.698 +05:30 [INF] Now listening on: https://localhost:7068
+2025-02-27 13:49:24.743 +05:30 [INF] Now listening on: http://localhost:5083
+2025-02-27 13:49:25.231 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 13:49:25.318 +05:30 [INF] Hosting environment: Development
+2025-02-27 13:49:25.329 +05:30 [INF] Content root path: D:\Test\CollegeApp\CollegeApp
+2025-02-27 13:49:25.423 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-27 13:49:25.759 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 343.5901ms
+2025-02-27 13:49:25.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-27 13:49:25.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-27 13:49:25.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.0173ms
+2025-02-27 13:49:25.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.8598ms
+2025-02-27 13:49:26.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-27 13:49:26.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.3103ms
+2025-02-27 13:49:33.032 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:49:33.057 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:49:33.059 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:49:33.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 27.7989ms
+2025-02-27 13:49:51.431 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 51
+2025-02-27 13:49:51.451 +05:30 [INF] CORS policy execution successful.
+2025-02-27 13:49:51.454 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 13:49:51.473 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 13:49:51.587 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 13:49:51.607 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 131.0607ms
+2025-02-27 13:49:51.607 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 13:49:51.608 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 286 application/json; charset=utf-8 177.3964ms
+2025-02-27 13:49:53.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:49:54.001 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:49:54.001 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:49:54.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 3.7689ms
+2025-02-27 13:49:55.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:49:55.657 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:49:55.658 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:49:55.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 2.1903ms
+2025-02-27 13:49:56.483 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:49:56.483 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:49:56.484 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:49:56.484 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 1.0145ms

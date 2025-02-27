@@ -1,0 +1,15 @@
+2025-02-27 22:35:05.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:35:05.425 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:35:05.425 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:35:05.425 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 13.9982ms
+2025-02-27 22:35:07.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:35:07.839 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:35:07.840 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:35:07.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 1.0931ms
+2025-02-27 22:35:08.634 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:35:08.635 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:35:08.635 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:35:08.635 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 1.4822ms

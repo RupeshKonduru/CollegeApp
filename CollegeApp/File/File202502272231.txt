@@ -1,0 +1,25 @@
+2025-02-27 22:31:51.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:31:51.251 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:31:51.251 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:31:51.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 21.9997ms
+2025-02-27 22:31:52.424 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:31:52.426 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:31:52.427 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:31:52.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 3.0711ms
+2025-02-27 22:31:52.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:31:52.983 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:31:52.983 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:31:52.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 1.1269ms
+2025-02-27 22:31:57.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:31:57.205 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:31:57.205 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:31:57.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 0.8975ms
+2025-02-27 22:31:57.820 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:31:57.821 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:31:57.821 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:31:57.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 1.0852ms

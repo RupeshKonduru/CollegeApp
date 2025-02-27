@@ -1,7 +1,0 @@
-2025-02-26 20:18:19.558 +05:30 [INF] Request starting HTTP/2 PATCH https://localhost:7068/api/Stduent/3/UpdatePartial - application/json-patch+json 86
-2025-02-26 20:18:19.587 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.StduentController.UpdatePatialStudentData (CollegeApp)'
-2025-02-26 20:18:19.615 +05:30 [INF] Route matched with {action = "UpdatePatialStudentData", controller = "Stduent"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollegeApp.Model.StudentDTO] UpdatePatialStudentData(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CollegeApp.Model.StudentDTO]) on controller CollegeApp.Controllers.StduentController (CollegeApp).
-2025-02-26 20:18:40.711 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
-SELECT TOP(1) [s].[Id], [s].[Address], [s].[DOB], [s].[Email], [s].[StdName]
-FROM [Student] AS [s]
-WHERE [s].[Id] = @__id_0

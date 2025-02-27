@@ -1,0 +1,3 @@
+2025-02-27 13:52:59.623 +05:30 [INF] User profile is available. Using 'C:\Users\ksudh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-27 13:52:59.905 +05:30 [INF] Now listening on: https://localhost:7068
+2025-02-27 13:52:59.908 +05:30 [INF] Now listening on: http://localhost:5083

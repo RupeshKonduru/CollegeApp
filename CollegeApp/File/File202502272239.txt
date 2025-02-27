@@ -1,0 +1,5 @@
+2025-02-27 22:39:08.251 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:39:08.310 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:39:08.311 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:39:08.312 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 61.6551ms

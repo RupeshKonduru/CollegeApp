@@ -1,0 +1,10 @@
+2025-02-27 22:24:29.316 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/MicroSoft - null null
+2025-02-27 22:24:29.319 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:24:29.319 +05:30 [INF] AuthenticationScheme: LoginForMicroSoftUser was forbidden.
+2025-02-27 22:24:29.319 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/MicroSoft - 403 0 null 3.2363ms
+2025-02-27 22:24:42.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:24:42.832 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:24:42.856 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:24:42.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 25.9729ms

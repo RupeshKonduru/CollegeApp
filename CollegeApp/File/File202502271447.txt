@@ -1,0 +1,19 @@
+2025-02-27 14:47:45.850 +05:30 [INF] User profile is available. Using 'C:\Users\ksudh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-27 14:47:46.266 +05:30 [INF] Now listening on: https://localhost:7068
+2025-02-27 14:47:46.269 +05:30 [INF] Now listening on: http://localhost:5083
+2025-02-27 14:47:46.413 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-27 14:47:46.418 +05:30 [INF] Hosting environment: Development
+2025-02-27 14:47:46.428 +05:30 [INF] Content root path: D:\Test\CollegeApp\CollegeApp
+2025-02-27 14:47:47.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-27 14:47:47.367 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 368.3832ms
+2025-02-27 14:47:47.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-27 14:47:47.607 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-27 14:47:47.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 127.3156ms
+2025-02-27 14:47:47.713 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.9373ms
+2025-02-27 14:47:47.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-27 14:47:48.075 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.6613ms
+2025-02-27 14:47:51.437 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 14:47:51.893 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 14:47:51.896 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was challenged.
+2025-02-27 14:47:51.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 459.4002ms

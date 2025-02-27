@@ -1,0 +1,10 @@
+2025-02-27 13:50:30.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 13:50:30.556 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:50:30.556 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:50:30.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 401 0 null 9.0909ms
+2025-02-27 13:50:42.771 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/2 - null null
+2025-02-27 13:50:42.772 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 13:50:42.799 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-27 13:50:42.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/2 - 401 0 null 28.9318ms

@@ -2,6 +2,7 @@
 using CollegeApp.Data;
 using CollegeApp.Data.Common;
 using CollegeApp.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,8 @@ namespace CollegeApp.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]
+    //[EnableCors(policyName: "MyTestCORS")]
+    [Authorize(AuthenticationSchemes = "LoginForLocalUsers", Roles = "SuperAdmin,Admin")] // Role = Super Admin
     public class StduentController : ControllerBase
     {
         private readonly ILogger<StduentController> _logger;
@@ -24,6 +27,10 @@ namespace CollegeApp.Controllers
         [Route("All", Name = "GetAllStudents")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status403Forbidden, Type = typeof(StudentDTO))]
+
+        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetStudens()
         {
             _logger.LogInformation("Get Students Method Start");
@@ -36,6 +43,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(StudentDTO))]
         public async Task<ActionResult<StudentDTO>> GetStudenById(int id)
         {
@@ -58,6 +66,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(StudentDTO))]
         public async Task<ActionResult> GetStudenByName(string studentname)
         {
@@ -78,6 +87,7 @@ namespace CollegeApp.Controllers
         [Route("Create")]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(StudentDTO))]
         public async Task<ActionResult<StudentDTO>> CreateStudent([FromBody] StudentDTO studentDTO)
         {
@@ -101,6 +111,7 @@ namespace CollegeApp.Controllers
         [Route("Update")]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status204NoContent, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(StudentDTO))]
         public async Task<ActionResult> UpdateStudent([FromBody] StudentDTO studentDTO)
         {
@@ -120,6 +131,7 @@ namespace CollegeApp.Controllers
         [Route("{id:int}/UpdatePartial")]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(StudentDTO))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status204NoContent, Type = typeof(StudentDTO))]
         public async Task<ActionResult<StudentDTO>> UpdatePatialStudentData(int id, [FromBody] JsonPatchDocument<StudentDTO> jsonPatchDocument)
         {
@@ -141,6 +153,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(bool))]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(bool))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(StudentDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(bool))]
         public async Task<ActionResult> DeleteStudenById(int id)
         {

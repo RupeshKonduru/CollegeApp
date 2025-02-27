@@ -1,0 +1,16 @@
+2025-02-27 22:38:21.741 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 86
+2025-02-27 22:38:21.766 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:38:21.768 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:38:21.768 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:38:21.770 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-02-27 22:38:21.821 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 52.4586ms
+2025-02-27 22:38:21.821 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:38:21.822 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 null text/plain; charset=utf-8 79.9847ms
+2025-02-27 22:38:46.300 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 89
+2025-02-27 22:38:46.301 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:38:46.302 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:38:46.302 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:38:48.453 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 22:38:48.478 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 2175.7622ms
+2025-02-27 22:38:48.478 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:38:48.478 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 266 application/json; charset=utf-8 2181.6268ms

@@ -1,0 +1,19 @@
+2025-02-27 22:33:15.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-02-27 22:33:15.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 25.5984ms
+2025-02-27 22:33:15.532 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-27 22:33:15.564 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-02-27 22:33:15.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 33.9253ms
+2025-02-27 22:33:15.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.8194ms
+2025-02-27 22:33:15.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - null null
+2025-02-27 22:33:15.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-02-27 22:33:15.726 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-27 22:33:15.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - 200 628 image/png 7.3509ms
+2025-02-27 22:33:15.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.906ms
+2025-02-27 22:33:55.393 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 89
+2025-02-27 22:33:55.393 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:33:55.394 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:33:55.396 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:33:57.646 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 22:33:57.647 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 2250.3065ms
+2025-02-27 22:33:57.647 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:33:57.647 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 266 application/json; charset=utf-8 2254.6756ms

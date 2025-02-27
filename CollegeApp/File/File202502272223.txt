@@ -1,0 +1,8 @@
+2025-02-27 22:23:22.147 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 93
+2025-02-27 22:23:22.167 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:23:22.168 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:23:22.168 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:23:46.086 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 22:23:46.087 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 23919.0061ms
+2025-02-27 22:23:46.087 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:23:46.087 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 266 application/json; charset=utf-8 23940.7071ms

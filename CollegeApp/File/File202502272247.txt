@@ -1,0 +1,13 @@
+2025-02-27 22:47:10.146 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7068/api/Loggin - application/json-patch+json 89
+2025-02-27 22:47:10.157 +05:30 [INF] CORS policy execution successful.
+2025-02-27 22:47:10.176 +05:30 [INF] Executing endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:47:10.196 +05:30 [INF] Route matched with {action = "Login", controller = "Loggin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(CollegeApp.LoginModel.LoginRequestDTO) on controller CollegeApp.Controllers.LogginController (CollegeApp).
+2025-02-27 22:47:10.346 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollegeApp.LoginModel.LoginResponseDTO'.
+2025-02-27 22:47:10.369 +05:30 [INF] Executed action CollegeApp.Controllers.LogginController.Login (CollegeApp) in 169.2678ms
+2025-02-27 22:47:10.369 +05:30 [INF] Executed endpoint 'CollegeApp.Controllers.LogginController.Login (CollegeApp)'
+2025-02-27 22:47:10.369 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7068/api/Loggin - 200 300 application/json; charset=utf-8 223.2098ms
+2025-02-27 22:47:27.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/api/Stduent/All - null null
+2025-02-27 22:47:27.325 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (SuperAdmin|Admin)
+2025-02-27 22:47:27.328 +05:30 [INF] AuthenticationScheme: LoginForLocalUsers was forbidden.
+2025-02-27 22:47:27.329 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/api/Stduent/All - 403 0 null 67.8059ms
